@@ -16,7 +16,7 @@ const sendEmail = async (req, res) => {
 
     const mailOptions = {
         from: '"TechPuri" <no-reply@example.com>',
-        to: "souravranjan488@gmail.com",
+        to: "souravranjan488@gmail.com, dev.shankarchjena@gmail.com",
         subject: "TechPuri Client Contact",
         text: `Name: ${name} \n Phone: ${number} \n Email: ${email} \n Service: ${service} \n Message: ${message}`,
         replyTo: 'no-reply@example.com',
